@@ -52,7 +52,7 @@ public class StudentApi {
 			return;
 		}
 
-		/** 3)처리결과를 JSON으로 출력하기 */
+		/** 3)처리결과를 JSON으로 출력 */
 		Map<String, Object> data = new HashMap<String, Object>();
 		data.put("rt", "OK");
 		data.put("item", item);
