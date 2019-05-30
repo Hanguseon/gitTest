@@ -52,7 +52,7 @@ public class StudentApi {
 			return;
 		}
 
-		/** 3)처리결과를 JSON으로 출력 */
+		/** 3)처리결과를 J 출력 */
 		Map<String, Object> data = new HashMap<String, Object>();
 		data.put("rt", "OK");
 		data.put("item", item);
@@ -78,7 +78,7 @@ public class StudentApi {
 		logger.debug("studno="+studno);
 		
 		if(studno == 0) {
-			web.printJsonRt("학생번호가 없습니다.");
+			web.printJsonRt("학생번호가 없음");
 			return;
 		}
 		
